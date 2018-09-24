@@ -12,6 +12,7 @@ public class shidong {
 		}
 		
 		
+		
 		public static double getKnots(double kmh){
 			
 			return kmh*0.54;
