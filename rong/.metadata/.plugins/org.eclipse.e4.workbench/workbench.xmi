@@ -11,6 +11,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1537791564013"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_EgZTU7_0EeiPZOlPko-O9Q" selectedElement="_EgZTVL_0EeiPZOlPko-O9Q" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_EgZTVL_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_EnFxMb_0EeiPZOlPko-O9Q">
         <children xsi:type="advanced:Perspective" xmi:id="_EnFxMb_0EeiPZOlPko-O9Q" elementId="org.eclipse.jdt.ui.JavaPerspective" selectedElement="_EnFxMr_0EeiPZOlPko-O9Q" label="Java" iconURI="platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/eview16/jperspective.png">
@@ -286,7 +287,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EhSrMr_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_EhSrRL_0EeiPZOlPko-O9Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_EPntj7_0EeiPZOlPko-O9Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7ogzZ8eYEeiRB_qWPBLxTA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EPntj7_0EeiPZOlPko-O9Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EhSrM7_0EeiPZOlPko-O9Q" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -301,7 +302,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_Ens1Mb_0EeiPZOlPko-O9Q" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Ens1ML_0EeiPZOlPko-O9Q" elementId="org.lejos.nxt.ldt.actionSet">
+      <children xsi:type="menu:ToolBar" xmi:id="_Ens1ML_0EeiPZOlPko-O9Q" elementId="org.lejos.nxt.ldt.actionSet" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EhSrNb_0EeiPZOlPko-O9Q" elementId="group.nav" toBeRendered="false">
@@ -310,7 +311,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EhSrN7_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Ehb1IL_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EPntBr_0EeiPZOlPko-O9Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7ogzcceYEeiRB_qWPBLxTA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EPntBr_0EeiPZOlPko-O9Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_EhSrOL_0EeiPZOlPko-O9Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -343,7 +344,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_ElTogb_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_GDfdwL_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
+      <children xsi:type="menu:ToolControl" xmi:id="_9g87sMeYEeiRB_qWPBLxTA" elementId="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar" contributionURI="bundleclass://org.eclipse.ui.intro/org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar">
         <persistedState key="introConfigId" value="org.eclipse.ui.intro.universalConfig"/>
         <persistedState key="lastPageId" value="qroot"/>
         <tags>Draggable</tags>
@@ -2173,7 +2174,7 @@
   <addons xmi:id="_EPLAg7_0EeiPZOlPko-O9Q" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_EPLAhL_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_EPUxcL_0EeiPZOlPko-O9Q" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_7OYcIceYEeiRB_qWPBLxTA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_EPd7YL_0EeiPZOlPko-O9Q" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_EPd7Yb_0EeiPZOlPko-O9Q" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
