@@ -17,10 +17,15 @@ public class lucky_deling {
 		}
 		else if(!geschlecht){
 			System.out.println("Lieber Herr "+ name+"!");
-			System.out.println("Du hast "+ wuerfeln +"!");
-			
+			System.out.println("Du hast "+ wuerfeln() +"!");}
+		
 		}
-	}	
+	    else{
+			System.out.println("Liebe Frau "+ name +"!");
+			System.out.println("Du hast " +wuerfeln()+ "!");
+	    }
+	
+		
 		
 	public static String wuerfeln(){
 		if(Math.random()<=0.42){
