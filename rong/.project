@@ -15,3 +15,5 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>
+
+//3;1*minecraft:bedrock,7*minecraft:dirt,1*minecraft:grass,88*minecraft:leaves:4,1*minecraft:carpet:13;9;village(size=10 distance=10),mineshaft(chance=10),stronghold(chance=10 count=50 spread=2),biome_1(distance=32),dungeon,decoration,lake,lava_lake
